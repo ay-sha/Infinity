@@ -1,0 +1,1220 @@
+@import url('https://fonts.cdnfonts.com/css/messina');
+:root {
+    --bg-color: #F5F5F5;
+    --primary: #2042B6;
+    --Wp: #FC714D;
+    --gg: #615DE3;
+    --mic: #AFCD80;
+    --twit: #6F34A1;
+    --blues: #2042B6;
+    --xlltxt : clamp(30px, 30px + 5vw, 78px); 
+    --xltxt : clamp(24px, 24px + 5vw, 48px); 
+    --lgtxt : clamp(16px, 12px + 3vw, 36px); 
+    --mdtxt: clamp(14px,10px + 2vw, 18px);
+    --smtxt : clamp(10px, 0.1rem + 2vw,12px);
+}
+
+body {
+    background-color: var(--bg-color) !important;
+}
+
+
+.card {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 350px;
+    height: 200px;
+
+}
+
+.card-img-top {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    transform: translateY(-50%);
+    object-fit: cover;
+}
+
+.card-body {
+    padding-top: 80px;
+}
+
+.card-body p:first-of-type
+{
+    font-family: 'Messina-2';
+    font-size: 14px;
+}
+
+.card-body p:nth-of-type(2) 
+{
+    font-family: 'Nantes';
+    font-size: 16px;
+}
+.card-body button
+{
+    background-color: var(--blues);
+    color: white;
+}
+
+.card-body button:hover
+{
+    color: white;
+}
+
+.col {
+    height: 220px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+.flex-item {
+    margin-top: 40px;
+    margin-bottom: 10px;
+   
+}
+
+.flex-item div 
+{
+    border-radius: 8px;
+}
+
+.flex-item div img
+{
+    border-radius: 15px;
+}
+.search-bar input {
+    border: 1px solid #cdcccc;
+    border-left: none;
+    background-color: #DADADA;
+    border-radius: 0 5px 5px 0;
+    font-size: 17px;
+}
+
+.search-bar .input-group-text {
+    background-color: #DADADA;
+    border: 1px solid #cdcccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+#tableID
+{
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.table-striped tbody tr {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-striped tbody tr td {
+    border: none;
+}
+
+.table-striped thead tr td {
+    border: none;
+}
+
+.table-striped thead tr th {
+    border: none;
+}
+
+.table-striped tbody tr:not(:last-of-type) {
+    margin-bottom: 10px;
+    /* Space between rows */
+}
+
+.table-striped tbody tr td:first-of-type {
+    border-top-left-radius: 10px;
+    /* Top-left rounded corner */
+    border-bottom-left-radius: 10px;
+    /* Bottom-left rounded corner */
+}
+
+.table-striped tbody tr td:last-of-type {
+    border-top-right-radius: 10px;
+    /* Top-right rounded corner */
+    border-bottom-right-radius: 10px;
+    /* Bottom-right rounded corner */
+}
+
+.table-container {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: 'Nantes';
+    font-size: var(--smtxt);
+}
+
+.table-container::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Background of the scrollbar track */
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: var(--blues);
+    /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Roundness of the scrollbar thumb */
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #152e82;
+    /* Color when hovering over the scrollbar thumb */
+}
+
+.table-container::-webkit-scrollbar-thumb:active {
+    background: #152e82;
+}
+
+.btn-class {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn-class button
+{
+    background-color: var(--blues);
+    color: white;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    font-family: 'Messina-2';
+    font-size: var(--smtxt);
+}
+
+.btn-class button:hover {
+    color: white; 
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.3); 
+}
+
+.flx-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: row;
+    background-color: #F5F5F5;
+}
+
+.flx-item {
+    background-color: white;
+    width: 180px;
+    height: 80px;
+    margin: 20px;
+}
+
+.flx-item img {
+    padding: 20px;
+    width: 80%;
+}
+
+#row-about {
+    display: flex;
+    width: 100% !important;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    padding-left: 40px;
+    flex-direction: row;
+}
+
+.col img {
+    max-width: 80%;
+    height: 440px;
+    object-fit: fill;
+}
+
+#connect-wpp-btn
+{
+    background-color: var(--blues);
+    color: white;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+#connect-wpp-btn:hover {
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+#last-id {
+    padding-bottom: 180px;
+}
+
+.last-cls-1 {
+    border-bottom: 1px solid #9FA0A1;
+}
+
+.p-1 {
+    font-family: 'Messina-1';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    
+}
+
+.p-2 {
+    font-family: 'Messina-2';
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.item-flex {
+    color: var(--blues);
+    font-size: 14px;
+    padding: 7px;
+    font-family: 'NeueHaas';
+    font-size: var(--mdtxt);
+}
+
+.last-cls-2 a {
+    color: #9FA0A1;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.last-cls-2 a i {
+    font-size: 30px;
+}
+
+.chart-top-top {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 22px;
+}
+
+#chart-id {
+    background-color: #EFF3F6;
+    border-radius: 8px;
+    padding: 10px;
+    height: 90vh !important;
+    margin-top: 30px;
+}
+
+.chart-left-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nantes';
+}
+
+.chart-left-section:first-of-type {
+    background-color: var(--blues);
+    color: white;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+.chart-left-section:nth-child(n+2) {
+    background-color: #EFF3F6;
+    color: #647888;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.chart-left-section i {
+    margin-top: -5px;
+}
+
+.chart-left-section p {
+    margin-top: 5px;
+}
+
+#chart-btn {
+    margin-top: 20px;
+    height: fit-content;
+    font-family: 'Messina-2';
+}
+
+#chart-btn button {
+    height: fit-content;
+    background-color: var(--blues);
+    color: white;
+}
+
+#chart-btn i {
+    margin-left: 50px;
+}
+
+#chrt-btn {
+    padding: 1px 50px;
+    display: inline-block;
+    margin-left: auto;
+    background-color: #EFF3F6 !important;
+    color: #748DA1;
+}
+
+#chrt-btn p,
+#chrt-btn span {
+   margin: 1px 3px;
+
+    display: inline-block;
+}
+
+
+.chart-top-section {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.chart-top-item {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    height: 60px;
+    align-items: center;
+}
+
+.mymdcol-4{
+    width: 210px;
+    margin: 5px 10px;
+}
+
+.chart-top-item p {
+    display: inline-block;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#ch-1 {
+    color: var(--Wp);
+}
+
+#ch-2 {
+    color: var(--gg);
+}
+
+#ch-3 {
+    color: var(--mic);
+}
+
+#ch-4 {
+    color: var(--twit);
+    
+}
+#ch-1, #ch-2, #ch-3, #ch-4{
+    line-height: 50px;
+    font-family: 'Nantes';
+    font-size: 30px;
+}
+#chr-1,
+#chr-2,
+#chr-3,
+#chr-4 {
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Messina-2';
+}
+
+#chr-3{
+    line-height: 45px;
+}
+
+#chr-1::after {
+    content: " ";
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    background-color: var(--Wp);
+    right: 4px;
+    top: 14px;
+}
+
+#chr-2::after {
+    content: " ";
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    background-color: var(--gg);
+    right: 4px;
+    top: 14px;
+}
+
+#chr-3::after {
+    content: " ";
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    background-color: var(--mic);
+    right: 4px;
+    top: 10px;
+}
+
+#chr-4::after {
+    content: " ";
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    background-color: var(--twit);
+    right: 4px;
+    top: 14px;
+}
+
+
+.legend {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    visibility: hidden;
+    width: 165px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.legend rect {
+    stroke-width: 2;
+    
+}
+
+.legend text.bold {
+    font-weight: bold;
+}
+
+.legend-box {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 5px;
+
+}
+
+.legend-box .legend-item {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 20px;
+
+}
+
+.legend-box .legend-item .color-box {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.tooltip-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.tooltip-content .company-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.tooltip-content .color-box {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    
+}
+
+.color-box {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+#poten, #story, #comp, #abut, #select-comp
+{
+    font-family: 'Nantes'; 
+    font-size: var(--xltxt);
+}
+
+#abut-2
+{
+    font-family: 'Nantes'; 
+    font-size: 30px;
+}
+
+#poten-pera, #story-pera
+{
+    font-family: 'Messina-2'; 
+    font-size: var(--mdtxt);
+}
+
+#abut-pera
+{
+    font-family: 'Messina-2'; 
+    font-size: 16px;
+    text-align: justify;
+}
+#ex-pera
+{
+    font-family: 'Nantes';
+    font-size: 36px;
+    text-align: justify;
+}
+
+#ex-pera2
+{
+    font-family: 'Messina-2';
+    font-size: var(--mdtxt);
+    text-align: justify;
+}
+/* start from here */
+#contents{
+    background: var(--bg-color);
+}
+
+.menu, .cross{
+    font-size: 1.2rem;
+    border: none;
+    background: transparent;
+    
+}
+/* .navbar{
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    position: fixed !important;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+
+.nav_btn1, #nav_btn2{
+    background: transparent;
+    padding: 10px 14px;
+    border: 1px white solid;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 1.2rem;
+    font-family: 'Messina-2';
+}
+
+.menubar{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    border: none;
+}
+
+.navbar.scrolled {
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled .nav_btn1, .navbar.scrolled #nav_btn2{
+    color: black;
+    border: 1px var(--blues) solid;
+    background: transparent;
+}
+
+.navbar.scrolled .menubar{
+    color: black;
+}
+
+.verticalnav{
+    position: absolute;
+    top: 4px;
+    right: 1.5%;
+    background: white;
+    width: 320px;
+    display: none;
+    z-index: 10000;
+    border-radius: 0.2rem;
+}
+
+.verticalnavshow .nav_btn1{
+    color: white;
+    background-color: #AFCD80;
+}
+
+.verticalnavshow #nav_btn2{
+    color: white;
+    background-color: var(--blues);
+}
+
+.verticalnavshow{
+    display: block;
+    z-index: 10000;
+}
+
+.verticalnav ul{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.verticalnav ul li{
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.verticalnav ul li:not(:first-child){
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.verticalnav ul li:not(:first-child) a{
+    color: black;
+}
+
+#banner{
+    max-width: 100%;
+    height: 90vh;
+    background-color: var(--blues) !important;
+    z-index: 1;
+    position: relative;
+}
+
+.imagegula{
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    margin:  0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: -9px;
+}
+
+.midimg{
+    position: absolute;
+    top: 10px;
+    max-width: 100%;
+    height: 80%;
+    left: 15%;
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+
+.rectangle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 24%;
+    height: 65%;
+    top: 12%;
+    left: 33%;
+    transform: skew(-30deg);
+    /* White */
+    border: 1px solid #FFFFFF;
+    z-index: 0;
+}
+
+.imagegula h1{
+    z-index: 2;
+    font-size: var(--xlltxt);
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.imagegula p{
+    z-index: 2;
+    font-size: var(--smtxt);
+    color: white;
+    text-align: center;
+}
+
+.extraInfo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 125px;
+    padding-left: 30px;
+    
+
+}
+
+.extraInfo div h3{
+ color: white;
+ font-size: var(--lgtxt);
+ font-family: 'Nantes-reg';
+}
+
+.extraInfo div p{
+    color: #CDCDCD;
+    font-size: 16px;
+    opacity: 0.8;
+    font-family: 'NeueHaas';
+}
+
+.downward{
+    position: absolute;
+    bottom: 5%;
+    right: 3%; 
+    display: block;
+    padding: 5px 6px;
+    border: 1px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 500;
+}
+
+.bannrow{
+    padding-top: 80px;
+}
+
+.item img{
+    height: 80% !important;
+    width: 100% !important;
+}
+
+#carot{
+    /* background-image: url("../img/Group 264.png"); */
+    background-repeat: no-repeat;
+    background-position: right;
+    height: auto;
+    position: relative;
+}
+
+#carot-btn button
+{
+    background-color: var(--blues);
+    color: white;
+    border-radius: 40px;
+    font-family: 'Nantes';
+}
+
+#carot-btn button i
+{
+    font-size: 20px;
+    float: right;
+    padding-right: 15px;
+}
+
+.secondback{
+    position: absolute;
+    max-width: 40%;
+    top: 15%;
+    right: 8%;
+    z-index: 0;
+}
+#carot h1{
+    font-size: var(--xltxt);
+    z-index: 1;
+}
+
+#carot p{
+    font-size: var(--smtxt);
+    z-index: 1;
+}
+
+.carots{
+    position: relative;
+    overflow: hidden !important;
+    /* margin-right: -30px; */
+}
+.owl-carousel{
+    width: 110% !important;
+}
+
+.owlbtn{
+    margin-top: -1rem;
+}
+
+.owlbtn i
+{
+    font-size: 14px !important;
+}
+.btns-2{
+    background-color: white;
+    border: 1px white;
+    border-radius: 1.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.btns-2 i{
+    color: var(--blues);
+    font-size: 1.4rem;
+}
+
+.btns-1{
+    background-color: var(--blues);
+    color: white;
+    border: 1px var(--blues);
+    border-radius: 1.4rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.legend {
+    font-size: 12px;
+}
+.legend rect {
+    cursor: pointer;
+}
+
+
+#chart {
+    width: 100%;
+}
+#chart-content{
+    position: relative;
+}
+
+
+.legend {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    visibility: hidden;
+    width: 165px;
+    height: 175px;
+    position: absolute;
+    bottom: 26px;
+    right: 25%;
+}
+
+#legend{
+    position: absolute;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.legend rect {
+    stroke-width: 2;
+}
+
+.legend text.bold {
+    font-weight: bold;
+}
+
+.legend-box {
+    display: flex;
+    justify-content: center;
+    margin-right: 2px;
+}
+
+.legend-box .legend-item {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+
+.legend-box .legend-item .color-box {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+
+    #banner{ 
+        height: clamp(260px,60vh,400px); 
+    } 
+    .imagegula{ 
+        height: 10em; 
+        margin-top: 2em; 
+    } 
+    .imagegula h1{ 
+        font-size: 2rem; 
+    } 
+    .extraInfo{ 
+        flex-direction: row !important; 
+        justify-content: space-evenly; 
+        padding-top: 1.5em; 
+        padding-left: 2em; 
+    }
+
+    #row-about {
+        flex-direction: column;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+    }
+
+    .col img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .col-sm-6 {
+        margin-top: 20px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    .p-1,
+    .p-2 {
+        font-size: 16px;
+    }
+
+    .last-cls-2 a {
+        font-size: 24px;
+        margin-right: 15px;
+    }
+
+    .item-flex {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .chart-top-section {
+        flex-direction: column;
+    }
+
+    .mymdcol-4{
+        width: 100%;
+        margin: 5px 10px;
+    }
+    #chrt-btn{
+        padding: 1px 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bal{
+        margin-top: 3px !important;
+    }
+
+    #chart-id{
+        height: auto !important;
+    }
+ 
+    .diagramCont{
+        height: clamp(700px,142vh,1100px) !important;
+    }
+    #legend{
+        position: absolute;
+        left: 55%;
+        transform: translate(-50%,-50%);
+    }
+    .legend-item{
+        margin: 3px 1px;
+    }
+    
+    .my-sm-12{ 
+        max-width: 100% !important; 
+        flex: 0 0 100% !important; 
+    } 
+    .my-sm-order-1{ 
+        order: 1 !important; 
+    } 
+    .my-sm-order-2{ 
+        order: 2 !important; 
+    }
+    .extraInfo{ 
+        flex-direction: row !important; 
+        justify-content: space-evenly; 
+        padding-top: 1.5em; 
+    } 
+    .imagegula{ 
+        height: 19em; 
+    }
+    .rectangle{
+        width: 18% !important;
+        height: 112% !important;
+        top: -10% !important;
+    }
+}
+
+@media (max-width: 1024px){
+
+    .diagramCont{
+        height: clamp(300px,80vh,800px) !important;
+    }
+    .my-sm-12{
+        max-width: 100% !important;
+    }
+    .my-sm-order-1{
+        order: 1 !important;
+    }
+    .my-sm-order-2{
+        order: 2 !important;
+    }
+    .imagegula{
+        width: 70%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rectangle{
+        height: 25%;
+        width: 20%;
+    }
+
+    #carot{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-brand{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .phn{
+        margin-left: auto !important;
+        margin-right: auto !important; 
+    }
+    .downward{
+        display: none;
+    }
+
+    #abt, #abut-img
+    {
+        max-width: 100% !important;
+    }
+
+}
+
+@media (max-width: 500px){
+    #banner{ 
+        height: clamp(260px,54vh,370px); 
+    } 
+    .imagegula{ 
+        height: 10em; 
+        margin-top: 2em; 
+    } 
+    .imagegula h1{ 
+        font-size: 2rem; 
+    } 
+    .extraInfo{ 
+        flex-direction: row !important; 
+        justify-content: space-evenly; 
+        padding-top: 1.5em; 
+        padding-left: 2em; 
+    }
+    .diagramCont{
+        height: clamp(700px,170vh,1150px) !important;
+    }
+    #legend{
+        position: absolute;
+        max-width: 90%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .legend-item{
+        margin: 3px 1px;
+    }
+
+    .extraInfo div
+    {
+        padding-right: 4px;
+        text-align: center;
+    }
+
+    .extraInfo p
+    {
+        font-size: 9px !important;
+    }
+
+    .legend-box .legend-item {
+        font-size: 12px;
+    }
+
+    .btn-class button
+    {
+        font-size: 10px;
+    }
+
+    .textup p
+    {
+       font-size: 10px !important;
+    }
+
+    .textup h1
+    {
+        margin-top: 20px;
+        font-size: 40px !important;
+        text-align: center;
+    }
+    .chart-top-top h2
+    {
+        font-size: 30px !important;
+    }
+
+    #comp , #poten
+    {
+        font-size: 30px !important;
+    }
+   
+    #poten-pera , #abut-pera
+    {
+        font-size: var(--smtxt) !important;
+    }
+
+    #carot-btn button i
+    {
+        top:25% !important; 
+    }
+    #story,#abut
+    {
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    #story-pera
+    {
+        text-align: center !important;
+    }
+
+    #abut-2
+    {
+        font-size: 16px !important;
+        
+    }
+
+    #select-comp
+    {
+        font-size: 32px !important;
+        text-align: center !important;
+    }
+
+    #ex-pera
+    {
+        font-size: var(--lgtxt) !important;
+        
+    }
+    #last div
+    {
+        height: fit-content !important;
+    }
+
+    .rectangle{
+        width: 30% !important;
+        height: 86% !important;
+        top: -5% !important;
+    }
+}
+
+

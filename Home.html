@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section id="contents" class="container-fluid px-4 pt-1">
+        <div id="banner" class="justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5">
+
+                <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""></a>
+                <div class="ml-auto phn">
+                    <button type="button" class="nav_btn1"><i class="fa fa-solid fa-share-nodes"></i></button>
+                    <button type="button" id="nav_btn2">Download the 2024 Report</button>
+                    <button type="button" class="menu" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img class="toggle" src="img/ham1.png" alt="">
+                    </button>
+                </div>
+                <!-- <span class="navbar-toggler-icon menubar"></span> -->
+
+                <div class="verticalnav">
+                    <ul class="ml-1 py-2 px-4">
+                        <li style="display: inline-flex;">
+                            <button type="button" class="nav_btn1"><i class="fa fa-solid fa-share-nodes"></i></button>
+                            <button type="button" id="nav_btn2">Download the 2024 Report</button>
+                            <button type="button" class="cross pr-2" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <!-- <span class="navbar-toggler-icon menubar"></span> -->
+                                <img src="img\Group 16.svg" alt="" style="padding-left: 5px; padding-bottom: 5px;">
+                            </button>
+                        </li>
+                        <li>
+                            <a href="#">The WPPOOL Index</a>
+                        </li>
+                        <li>
+                            <a href="#">All Companies</a>
+                        </li>
+                        <li>
+                            <a href="#">Potential Future Listings</a>
+                        </li>
+                        <li>
+                            <a href="#">States of USA</a>
+                        </li>
+                        <li>
+                            <a href="#">Stories and Ideas</a>
+                        </li>
+                        <li>
+                            <a href="#">About WPPOOL</a>
+                        </li>
+                        <li>
+                            <a href="#">WPPOOL Portfolio Companies</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color: #2042B6;">Visit WPPOOL</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <button type="button" class="downward"><img src="img/arrow_downward_alt.png" alt=""></button>
+            <div class="row justify-content-md-center bannrow">
+                <div class="col-md-3 my-sm-12 my-sm-order-2 order-md-0 order-1">
+                    <div class="extraInfo">
+                        <div>
+                            <h3>60</h3>
+                            <p>Companies</p>
+                        </div>
+                        <div>
+                            <h3>$100B</h3>
+                            <p>Market Cap</p>
+                        </div>
+                        <div>
+                            <h3>3.5x</h3>
+                            <p>Revenue Multiple</p>
+                        </div>
+                        <div>
+                            <h3>60%</h3>
+                            <p>LTM avg. revenue growth rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 my-sm-12 my-sm-order-1 order-md-1 order-0">
+                    <div class="imagegula d-flex justify-content-start">
+                        <img src="img\Asset 1@4x 1.svg" class="midimg" alt="" srcset="">
+                        <div class="rectangle"></div>
+                        <div class="textup">
+                            <h1 class="pt-1" style="font-family: 'Nantes'; margin-right: 20px; margin-bottom: 10px;">The WPPOOL Index</h1>
+                            <p style="font-family: 'Messina-2'; font-size:var(--mdtxt);">Monitor the performance of emerging, publicly traded, financial teachnology company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section  id="chrt" class="container-fluid diagramCont " style="background-color: white !important; height: 104vh;">
+            <div class="container-fluid mt-5">
+                <div class="row mt-5" style="height: fit-content;">
+                    <div class="col-md-2 col-sm-12" id="chart-id">
+                        <div class="chart-left-section">
+                            <p>The Index</p>
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+                        <div class="chart-left-section">
+                            <p>The Index Tab Two</p>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="chart-left-section">
+                            <p>The Index Tab Three</p>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="chart-left-section">
+                            <p>The Index Tab Four</p>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="chart-left-section">
+                            <p>The Index Tab Five</p>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-sm-2">
+                        <div class="chart-top-top">
+                            <img src="img\Union.svg" alt="..">
+                            <h2 style="font-family: 'Nantes'; font-size: var(--xltxt);">The WPPOOL Index</h2>
+                        </div>
+
+
+                        <div class="chart-top-section">
+                            <div class="chart-top-item mymdcol-4">
+                                <p id="ch-1">+66.2%</p>
+                                <p id="chr-1">WPPOOL<br>Index</p>
+                                <!-- <div style="background-color: #FC714D; width:4px; height: 30px;"></div> -->
+                            </div>
+                            <div class="chart-top-item mymdcol-4">
+                                <p id="ch-2">+26.6%</p>
+                                <p id="chr-2">Google<br>Index</p>
+                                <!-- <div style="background-color: #FC714D; width:4px; height: 30px;"></div> -->
+                            </div>
+                            <div class="chart-top-item mymdcol-4">
+                                <p id="ch-3">+34.1%</p>
+                                <p id="chr-3">Microsoft</p>
+                                <!-- <div style="background-color: #FC714D; width:4px; height: 30px;"></div> -->
+                            </div>
+                            <div class="chart-top-item mymdcol-4">
+                                <p id="ch-4">+17%</p>
+                                <p id="chr-4">Twitter<br>Index</p>
+                                <!-- <div style="background-color: #FC714D; width:4px; height: 30px;"></div> -->
+                            </div>
+                        </div>
+
+                        <div class="row" id="chart-btn">
+                            <div class="col-md-4 sm-12">
+                                <button type="button" class="btn btn-sm bal rounded-pill">Sectors<i
+                                        class="fa-solid fa-caret-down"></i></button>
+                                <button type="button" class="btn  btn-sm bal rounded-pill">Types of IPO<i
+                                        class="fa-solid fa-caret-down"></i></button>
+                            </div>
+                            <div class="col-md-8 sm-12 d-flex">
+                                <div class="rounded-pill" id="chrt-btn" style="height: fit-content;">
+                                    <p>1Y</p>
+                                    <p>YTD</p>
+                                    <span class="btn btn-sm rounded-pill" style="background-color: #2042B6; color: white;">6M</span>
+
+                                    <p>1M</p>
+                                    <p>1W</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="chart-content" >
+                            <div id="chart"></div>
+                            <div id="legend"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid py-5" style="padding-left: 0px; padding-right: 0px;">
+            <div class="container-fluid mt-4 py-5" id="tableID">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1 id ="comp">All Companies</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group search-bar float-right">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search Company">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Compay</th>
+                            <td scope="col">Ticket  <i class="fa-solid fa-caret-down mx-2"></i></td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">Compay</td>
+                            <td scope="col">Ticket</td>
+                            <td scope="col">Vertical</td>
+                            <td scope="col">Price</td>
+                            <td scope="col">Market Cap($$B)</td>
+                            <td scope="col">Revenue Growth</td>
+                            <td scope="col">Gross Margin</td>
+                            <td scope="col">EV/Revenue</td>
+                            <td scope="col">YTD Performance</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn-class">
+                <button type="button" class="btn rounded-pill" style="margin-right: 10px;">Download ‘All
+                    Companies’ Data</button>
+                <button type="button" class="btn rounded-pill">View Methodology</button>
+            </div>
+        </section>
+
+        <section class="container mt-5" style="background-color: #F5F5F5 !important;">
+            <h1 id ="poten">Potential Future Listings</h1>
+            <p id ="poten-pera">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
+                aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+            <div class="flx-container">
+                <div class="flx-item">
+                    <img src="img\Group 227.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\Group 219.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\Group 220.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item" style=" width: 190px;">
+                    <img src="img\Group 221.png" class="rounded mx-auto d-block" alt="..."
+                        style="padding-top: 30px; height: 70px;">
+                </div>
+                <div class="flx-item">
+                    <img src="img\Group 222.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\Group 226.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\Group 223.png" class="rounded mx-auto d-block" style="height: 80px;" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\Group 224.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\Group 225.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\Group 228.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+            </div>
+        </section>
+
+        <section id="carot" class="container-fluid pb-5">
+            <img src="img/secondback.png" class="secondback" alt="">
+            <div class="pt-5 px-4" id="carot-btn">
+                <h1 style="font-family: 'Nantes'; font-size: var(--xltxt);">State of USA</h1>
+                <button class="btn btn-primary btn-large align-left px-3 pr-5 py-1 justify-content-between" style="position: relative"><span class="pr-5" style="font-size: var(--lgtxt);">2024</span><i class="fa-solid fa-caret-down pl-5" style="position: absolute; top: 35%; right: 2%"></i></button>
+                <p class="pt-2">Click through the slides or download the report to view natively in your device</p>
+            </div>
+            <div class="carots">
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="img/1.png" alt="" srcset=""></div>
+                    <div class="item"><img src="img/2.png" alt="" srcset=""></div>
+                    <div class="item"><img src="img/1.png" alt="" srcset=""></div>
+                    <div class="item"><img src="img/1.png" alt="" srcset=""></div>
+                    <div class="item"><img src="img/1.png" alt="" srcset=""></div>
+                    <div class="item"><img src="img/1.png" alt="" srcset=""></div>
+                </div>
+                <div class="owlbtn px-1">
+                    <div class="row" style="height: auto;">
+                        <div class="col-md-8 py-2">
+                            <button type="button" role="presentation" class="customPrevBtn btns-2 px-3 py-2 mx-3"><i
+                                    class="fa-solid fa-arrow-left"></i></button>
+                            <button type="button" role="presentation" class="customNextBtn btns-2 px-3 py-2"><i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                            <span class="ml-3">Pages</span>
+                            <button class="btns-2 px-3 py-2">1 and 2 <span class="ml-3"><i
+                                        class="fa-solid fa-caret-down"></i></span></button>
+                            <span>of 37</span>
+                        </div>
+                        <div class="col-md-4 py-2">
+                            <button type="button" class="btns-1 px-3 py-2">Download the 2023 Report</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5" style="padding-bottom: 30px; padding-left: 0px; padding-right: 0px;" >
+            <h1 id="story" > Stories & Idea</h1>
+            <p id="story-pera">The Latest News and Updates</p>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <div class="card h-85 mt-5">
+                        <img src="img\image 97.png" class="card-img-top" style="width: 120px; height: 120px;" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-primary mt-5" style="margin-top: 10px; margin-bottom: -5px;">By:
+                                Sahabuddin Sagor</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                                mollitia.</p>
+                            <button type="button" class="btn btn-sm rounded-pill">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="card h-85 mt-5">
+                        <img src="img\image 98.png" class="card-img-top" style="width: 120px; height: 120px;" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-primary mt-5">By: Nayem Khan</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                            <button type="button" class="btn btn-sm rounded-pill">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="card h-85 mt-5">
+                        <img src="img\image 97.png" class="card-img-top" style="width: 120px; height: 120px;" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-primary mt-5" style="margin-top: 10px; margin-bottom: -5px;">By:
+                                Sahabuddin Sagor</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                                mollitia.</p>
+                            <button type="button" class="btn btn-sm rounded-pill">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Secod RoW -->
+                <div class="flex-item">
+                    <div class="card h-85 mt-5">
+                        <img src="img\image 97.png" class="card-img-top" style="width: 120px; height: 120px;" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-primary mt-5" style="margin-top: 10px; margin-bottom: -5px;">By:
+                                Sahabuddin Sagor</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                                mollitia.</p>
+                            <button type="button" class="btn btn-sm rounded-pill">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="card h-85 mt-5">
+                        <img src="img\image 98.png" class="card-img-top" style="width: 120px; height: 120px;" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-primary mt-5">By: Nayem Khan</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                            <button type="button" class="btn btn-sm rounded-pill">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="card h-85 mt-5">
+                        <img src="img\image 97.png" class="card-img-top" style="width: 120px; height: 120px;" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-primary mt-5" style="margin-top: 10px; margin-bottom: -5px;">By:
+                                Sahabuddin Sagor</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                                mollitia.</p>
+                            <button type="button" class="btn btn-sm rounded-pill">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5" style="padding-top: 30px; padding-bottom: 80px; padding-left: 0px; padding-right: 0px;  border-bottom: 1px solid #90B8F0; border-top: 1px solid #90B8F0;">
+            <div class="container-fluid mt-5">
+                <div class="row" id="row-about" style="background-color: white !important;">
+                    <div class="col-sm-6 mt-5" id="abt">
+                        <h1 id="abut">About WPPOOL</h1>
+                        <h4 id="abut-2"style="color: #7D7F81; font-weight: 120; opacity: 80%;">Investing in WPPOOL for over 50 years</h4>
+                        <p id="abut-pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam
+                            blanditiis
+                            harum quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                            eaque rerum! Provident similique accusantium nemo autem.</p>
+                        <button type="button" class="btn btn-sm rounded-pill" id="connect-wpp-btn">Connect
+                            WPPOOL</button>
+                    </div>
+                    <div id="abut-img" class="col-sm-6">
+                        <img src="img/banner-img 3-1.png" class="img-fluid rounded float-right" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <h2 id="select-comp">Selected WPPOOL Portfolio Companies</h2>
+            <div class="flx-container">
+                <div class="flx-item">
+                    <img src="img\s-1.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-2.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-3.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-4.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-5.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-6.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-7.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-8.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-9.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-10.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-11.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-12.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-13.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-14.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-15.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-16.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-17.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-18.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-19.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="flx-item">
+                    <img src="img\s-20.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5 py-3" style="background-color: #E6E6E6;">
+                <div class="row" style="padding-top: 20px;">
+                    <div id= "last" class="col-lg-6 col-md-12">
+                        <div>
+                            <p id="ex-pera">Experience remarkable WordPress products with a new level of
+                                power,
+                                beauty, and human-centered designs.</p>
+                        </div>
+
+                        <div style="height: 200px;"></div>
+                        <div>
+                            <p style="color: #9FA0A1; font-size: 14px;">
+                                ©2024 Terms of Use Privacy Policy
+                            </p>
+                            <p id="ex-pera2" style="font-size: 14px;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+                                laborum
+                                numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                                eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur
+                                iure
+                                eius earum ut molestias architecto voluptate aliquam nihil,
+                                eveniet aliquid culpa officia aut! Impedit sit sunt quaera
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="container-flex">
+                            <div class="item-flex" style="color: #9FA0A1 !important;">Jump to</div>
+                            <div class="item-flex"><a href="#">About Us</a></div>
+                            <div class="item-flex"><a href="#">Portfolio</a></div>
+                            <div class="item-flex"><a href="#">News</a></div>
+                            <div class="item-flex"><a href="#">Stories</a></div>
+                            <div class="item-flex"><a href="#">Jobs</a></div>
+                            <div class="item-flex"><a href="#">About Us</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="last-cls-1">
+                            <p class="p-1" style="margin-top: 0px !important;">Cambridge</p>
+                            <p class="p-2">70728 Yost Burg, North Magdaleneview, UT 97952-2814</p>
+                        </div>
+                        <div class="last-cls-1">
+                            <p class="p-1">London</p>
+                            <p class="p-2">Suite 292 903 Stehr Streets, Langworthtown, SC 94577-9465</p>
+                        </div>
+                        <div class="last-cls-1">
+                            <p class="p-1">San Francisco</p>
+                            <p class="p-2">19837 Gilberto Lodge, Lake Kendallville, Colorado - 97392, Bhutan</p>
+                        </div>
+                        <div class="last-cls-2">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+        
+        </section>
+    </section>
+
+    <script src="https://kit.fontawesome.com/a75b4ad030.js" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
+    <script src="Js/script.js"></script>
+    <script src="Js/home.js"></script>
+
+</body>
+
+</html>
