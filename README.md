@@ -1,4 +1,4 @@
-# WPPOOL
+# Infinity
 # Overview
 Infinity is a fully responsive web application built using HTML, CSS, Bootstrap, JavaScript, and the jQuery plugin OWL Carousel. The application is designed to provide a seamless user experience across devices, with smooth navigation and interactive elements powered by modern web technologies.
 
