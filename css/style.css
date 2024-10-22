@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/messina');
 :root {
     --bg-color: hsl(0, 0%, 96%);
-    --pr: #615DE3;
+    --pr: #4D4495;
     --Wp: #FC714D;
     --gg: #615DE3;
     --mic: #AFCD80;
     --twit: #6F34A1;
-    --blues: #2930b7;
+    --blues: #01005C;
     --xlltxt : clamp(30px, 30px + 5vw, 78px); 
     --xltxt : clamp(24px, 24px + 5vw, 48px); 
     --lgtxt : clamp(16px, 12px + 3vw, 36px); 
@@ -16,6 +16,7 @@
 
 body {
     background-color: var(--bg-color) !important;
+    opacity: 90%;
 }
 
 
@@ -812,6 +813,7 @@ body {
     color: white;
     border-radius: 40px;
     font-family: 'Nantes';
+    border: 1px solid var(--pr);
 }
 
 #carot-btn button i
